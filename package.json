@@ -1,6 +1,6 @@
 {
   "name": "@relive/graphhopper-api-client",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Open source Javascript / Typescript client to the Graphhopper API, generated with OpenAPI",
   "main": "build/index.js",
   "types": "build/index.d.ts",
