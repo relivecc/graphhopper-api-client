@@ -62,9 +62,10 @@ export type GraphHopperInfo = {
  * Get info about the GraphHopper instance
  * This endpoint isn't in the OpenAPI spec yet, and thus not in our generated client
  */
-export async function getInfo(basePath: string) {
+export async function getInfo(params: any, basePath: string) {
   return Axios.request<GraphHopperInfo>({
     url: basePath + "/info",
     method: "GET",
+    params,
   });
 }
