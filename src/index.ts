@@ -1,2 +1,3 @@
 export * from "./generated/graphhopper-api";
-export * as experimental from "./experimentalAPI";
+import * as experimental from "./experimentalAPI";
+export { experimental };
