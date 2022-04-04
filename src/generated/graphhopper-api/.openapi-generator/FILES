@@ -10,6 +10,7 @@ api/matrix-apiapi.ts
 api/route-optimization-apiapi.ts
 api/routing-apiapi.ts
 base.ts
+common.ts
 configuration.ts
 git_push.sh
 index.ts
@@ -25,10 +26,12 @@ model/cluster-customer.ts
 model/cluster-request.ts
 model/cluster-response.ts
 model/cluster.ts
+model/clusters.ts
 model/configuration.ts
 model/cost-matrix-data-info.ts
 model/cost-matrix-data.ts
 model/cost-matrix.ts
+model/custom-model.ts
 model/detail.ts
 model/drive-time-break.ts
 model/error-message.ts
@@ -73,6 +76,5 @@ model/stop.ts
 model/symmetrical-matrix-request.ts
 model/time-window-break.ts
 model/time-window.ts
-model/vehicle-profile-id.ts
 model/vehicle-type.ts
 model/vehicle.ts
