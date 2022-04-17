@@ -14,6 +14,8 @@
 
 
 import { Address } from './address';
+import { DriveTimeBreak } from './drive-time-break';
+import { TimeWindowBreak } from './time-window-break';
 
 /**
  * 

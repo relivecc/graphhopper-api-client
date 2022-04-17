@@ -13,6 +13,7 @@
  */
 
 
+import { LineString } from './line-string';
 import { RouteResponsePathInstructions } from './route-response-path-instructions';
 
 /**

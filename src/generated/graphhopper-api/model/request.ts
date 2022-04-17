@@ -13,7 +13,7 @@
  */
 
 
-import { ation|GroupRelation } from './ation|group-relation';
+import { GroupRelation } from './group-relation';
 import { Algorithm } from './algorithm';
 import { Configuration } from './configuration';
 import { CostMatrix } from './cost-matrix';
@@ -22,6 +22,7 @@ import { Service } from './service';
 import { Shipment } from './shipment';
 import { Vehicle } from './vehicle';
 import { VehicleType } from './vehicle-type';
+import { JobRelation } from './job-relation';
 
 /**
  * 

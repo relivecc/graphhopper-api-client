@@ -14,5 +14,6 @@
 
 
 export * from "./api";
-export * from "./configuration";
 export * from "./model";
+import { Configuration as Config } from "./configuration";
+export { Config }
