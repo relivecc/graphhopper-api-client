@@ -6,7 +6,7 @@
   "types": "build/index.d.ts",
   "scripts": {
     "build": "tsc",
-    "generate": "rm -rf src/generated && npx @openapitools/openapi-generator-cli generate -i swagger.json -g typescript-axios  -o src/generated/graphhopper-api --additional-properties=withSeparateModelsAndApi=true,modelPackage=model,apiPackage=api,useSingleRequestParameter=true"
+    "generate": "rm -rf src/generated && npx @openapitools/openapi-generator-cli generate -i swagger.json -g typescript-axios -o src/generated/graphhopper-api --additional-properties=withSeparateModelsAndApi=true,modelPackage=model,apiPackage=api,useSingleRequestParameter=true"
   },
   "repository": {
     "type": "git",

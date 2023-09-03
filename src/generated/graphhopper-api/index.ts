@@ -14,5 +14,9 @@
 
 
 export * from "./api";
-export * from "./configuration";
 export * from "./model";
+
+// ⫘⫘⫘⫘ IMPORTANT ⫘⫘⫘⫘ //
+// use the export below for exporting the config until this issue has been resolved:
+// https://github.com/OpenAPITools/openapi-generator/issues/11717
+export { Configuration as Config } from "./configuration";
